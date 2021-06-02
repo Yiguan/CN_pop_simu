@@ -6,6 +6,7 @@ mycol = brewer.pal(8, "Set1")
 mycol0 = brewer.pal(11, "Paired")
 mycol1 = brewer.pal(9, 'YlOrRd')
 ## total fertility rate
+scale_down = 1e4
 
 
 tfr <- fread("total_fertility_rate.csv", header=T, sep=",", select=1:4)
